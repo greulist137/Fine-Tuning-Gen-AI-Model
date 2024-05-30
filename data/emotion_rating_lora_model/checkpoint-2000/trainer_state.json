@@ -1,0 +1,63 @@
+{
+  "best_metric": 1.5612080097198486,
+  "best_model_checkpoint": "./data/emotion_rating_lora_model/checkpoint-2000",
+  "epoch": 2.0,
+  "eval_steps": 500,
+  "global_step": 2000,
+  "is_hyper_param_search": false,
+  "is_local_process_zero": true,
+  "is_world_process_zero": true,
+  "log_history": [
+    {
+      "epoch": 0.5,
+      "learning_rate": 1.5000000000000002e-05,
+      "loss": 4.7188,
+      "step": 500
+    },
+    {
+      "epoch": 1.0,
+      "learning_rate": 1e-05,
+      "loss": 1.6729,
+      "step": 1000
+    },
+    {
+      "epoch": 1.0,
+      "eval_accuracy": 0.349,
+      "eval_loss": 1.5957868099212646,
+      "eval_runtime": 39.4538,
+      "eval_samples_per_second": 50.692,
+      "eval_steps_per_second": 3.168,
+      "step": 1000
+    },
+    {
+      "epoch": 1.5,
+      "learning_rate": 5e-06,
+      "loss": 1.6027,
+      "step": 1500
+    },
+    {
+      "epoch": 2.0,
+      "learning_rate": 0.0,
+      "loss": 1.6114,
+      "step": 2000
+    },
+    {
+      "epoch": 2.0,
+      "eval_accuracy": 0.374,
+      "eval_loss": 1.5612080097198486,
+      "eval_runtime": 39.3998,
+      "eval_samples_per_second": 50.762,
+      "eval_steps_per_second": 3.173,
+      "step": 2000
+    }
+  ],
+  "logging_steps": 500,
+  "max_steps": 2000,
+  "num_input_tokens_seen": 0,
+  "num_train_epochs": 2,
+  "save_steps": 500,
+  "total_flos": 4916743372800000.0,
+  "train_batch_size": 16,
+  "trial_name": null,
+  "trial_params": null
+}
